@@ -3,6 +3,8 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .contenitore
@@ -46,8 +48,8 @@ li:last-child
 /* blochi con 100% di larghezza */
 .row100 , .row1 , .row2 , .row3, .row4 , .contenitore-art
 {
-    margin-top: 20px;
     width: 100%;
+    
 }
 .row1
 {
@@ -72,21 +74,22 @@ li:last-child
 
 .row3
 {
-    height: 48vh;
     background-color: lightskyblue;
-    margin: top 0;
+
 }
 
 .row4
 {
     height: 5vh;
-    background-color: purple;
+    margin-top: 20px;
+    text-align: center;
 }
 
 /* blocchi dentro il terzo contenitore */
 .contenitore-art
 {
-    background-color: lightblue;
+    margin-top: 20px;
+
 }
 
 .subrow3
@@ -101,19 +104,31 @@ li:last-child
 {
     width:  50%;
     padding: 40px;
-    background-color: orange;
+    background-color: white;
 }
 
 .b
 {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: orange;
+    background-color: white;
 }
 
-.colore
+.colore1 , .colore2 , .colore3
 {
     background-color: navy;
     width: 100%;
-    height: 100%;
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.colore1{
+    background-image: url(../img/img-1.jpg);
+}
+.colore2{
+    background-image: url(../img/banner-2.jpg);
+}
+.colore3{
+    background-image: url(../img/img-3.jpg);
 }
