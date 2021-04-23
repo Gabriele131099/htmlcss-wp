@@ -1,0 +1,90 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenitore
+{
+    max-width: 60%;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+.fl
+{
+    float: left;
+}
+
+/* blochi con 100% di larghezza */
+.row100 , .row1 , .row2 , .row3, .row4 , .contenitore-art
+{
+    margin-top: 20px;
+    width: 100%;
+}
+.row1
+{
+    height: 5vh;
+    background-color: pink;
+}
+
+.row2
+{
+    height: 28vh;
+    background-color: darkgray;
+}
+
+.clearfix::after
+{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.row3
+{
+    height: 48vh;
+    background-color: lightskyblue;
+}
+
+.row4
+{
+    height: 5vh;
+    background-color: purple;
+}
+
+/* blocchi dentro il terzo contenitore */
+.contenitore-art
+{
+    background-color: lightblue;
+}
+
+.subrow3
+{
+    float: left;
+    background-color: olive;
+    height: 40vh;
+    width: 25%;
+}
+
+.a
+{
+    width:  50%;
+    padding: 40px;
+    background-color: orange;
+}
+
+.b
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: orange;
+}
+
+.colore
+{
+    background-color: navy;
+    width: 100%;
+    height: 100%;
+}
