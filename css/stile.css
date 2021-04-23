@@ -7,8 +7,7 @@
 
 .contenitore
 {
-    max-width: 60%;
-    background-color: lightgrey;
+    max-width: 50%;
     margin: auto;
 }
 
@@ -17,6 +16,33 @@
     float: left;
 }
 
+.row1:first-child
+{
+    background-image: url("../img/logo.png");
+    background-size: cover;
+    background-position: center;
+    width: 15%;
+}
+
+li
+{
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;}
+
+li:last-child
+{
+    margin-right: 0%;
+}
+
+.testo
+{
+    width: 60%;
+    padding-top: 22%;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
 /* blochi con 100% di larghezza */
 .row100 , .row1 , .row2 , .row3, .row4 , .contenitore-art
 {
@@ -26,13 +52,15 @@
 .row1
 {
     height: 5vh;
-    background-color: pink;
 }
 
 .row2
 {
-    height: 28vh;
-    background-color: darkgray;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+    filter: alpha(opacity=80);
 }
 
 .clearfix::after
@@ -46,6 +74,7 @@
 {
     height: 48vh;
     background-color: lightskyblue;
+    margin: top 0;
 }
 
 .row4
